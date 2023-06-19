@@ -1,7 +1,7 @@
 # Discussionplatform Infra
 
 ## Project Overview
-- This repository consists of modules to help deploy the backend of the Discussion Platform application on Amazon Elastic Container Service (Amazon ECS)
+- This repository consists of modules to help deploy the backend of the Discussion Platform application([Link to Application](https://github.com/JasonPauldj/DiscussionPlatform_SpringBoot_Hibernate)) on Amazon Elastic Container Service (Amazon ECS)
 - I used Terraform as IaC to deploy the infrastructure
 - The application is deployed in Amazon ECS with load balancing and auto scaling configured
 
