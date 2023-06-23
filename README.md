@@ -19,4 +19,4 @@
 ## Terraform Commands
 - `terraform fmt -recursive .` : To format all the terraform files in the directory
 - `terraform apply -auto-approve` : To build the infrastructure. Note use the -auto-approve flag if you want to skip the plan output
-- `terraform apply -auto-approve` : To bring down the infrastructure
+- `terraform destroy -auto-approve` : To bring down the infrastructure
