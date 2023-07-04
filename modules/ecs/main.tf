@@ -1,7 +1,7 @@
 resource "aws_ecs_cluster" "ecs-cluster" {
-  name = "dp-cluster"
+  name = var.cluster-name
   tags = {
-    Name = "dp-cluster"
+    Name = var.cluster-name
   }
 }
 

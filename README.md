@@ -5,6 +5,13 @@
 - I used Terraform as IaC to deploy the infrastructure
 - The application is deployed in Amazon ECS with load balancing and auto scaling configured
 
+## Architecture Overview
+![Architecture](./media/architecture.png)
+
+## Amazon ECS Concept Overview
+![Amazon ECS](./media/awsecs.png)
+
+
 ## Terraform Modules Overview
 
 | Module | Notes |

@@ -1,3 +1,8 @@
+variable "cluster-name" {
+  description = "The name of the cluster"
+  type        = string
+  default     = "dp-cluster"
+}
 variable "private-subnet-ids" {
   description = "List of subnet ids to associate with the task or service"
   type        = list(string)
