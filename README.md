@@ -5,6 +5,11 @@
 - I used Terraform as IaC to deploy the infrastructure
 - The application is deployed in Amazon ECS with load balancing and auto scaling configured
 
+## Other Related Repos
+- ([Link To EKS Infra](https://github.com/JasonPauldj/DiscussionPlatform_Infra_EKS))
+- ([Link To Backend](https://github.com/JasonPauldj/DiscussionPlatform_SpringBoot_Hibernate))
+- ([Link To Frontend](https://github.com/JasonPauldj/DiscussionPlatform_ReactJS))
+
 ## Architecture Overview
 ![Architecture](./media/architecture.png)
 
